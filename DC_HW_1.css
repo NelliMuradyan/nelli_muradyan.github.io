@@ -1,0 +1,82 @@
+
+/*The :hover command is used to 
+select elements when we mouse over them.*/
+#my_heading:hover{
+	background-color:#ff4d4d;
+	font-size: 45px;
+}
+/*"text-align:cnter" is used to bring the mentioned element
+in to the center.*/
+#my_heading{
+	text-align: center;
+}
+#my_heading{
+	color: #990000;
+}
+
+#my_edu{
+	text-align: center;
+}
+.about_me:hover{
+	background-color: #ff4d4d;
+	font-size: 25px;
+}
+.about_me{
+	text-align: center;
+}
+.my_skills:hover{
+	background-color: #ff4d4d;
+	font-size: 25px;
+}
+.my_skills{
+	text-align: center;
+}
+/*As we want to center unordered list and want the left and right
+/*margin to be equal, we just set margins to be ""*/
+ul { display:table; margin:0 auto;}
+/*to change the color for each line 
+	we should create an ID and then use # in CSS*/
+ul{
+	color:#ff00ff;
+	
+}
+/*   font-family: arial, sans-serif; is used to change the font's style,
+    border-collapse: collapse; sets whether table borders should collapse
+     into a single border or be separated as in standard HTML.*/
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+}
+/*As we use the same design for both tables in different HTML files
+there is no need to specify them.*/
+table{
+	text-align: center;
+}
+/*In order to specify table borders in CSS we can use the border property.
+The CSS padding properties are used to generate space around 
+an element's content, inside of any defined borders.*/
+td, th {
+    border: 1px solid #ff0000;
+    text-align: left;
+    padding: 8px;
+}
+/*Specify a background color for every n-th element in our table.
+In our case starting from 2nd row, every even row will have the mentioned color.*/
+
+tr:nth-child(even) {
+    background-color: #AED6F1;
+}
+/*The display property specifies the display behavior of an element.*/
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#movie_heading:hover{
+	background-color:#ff4d4d;
+	font-size: 45px;
+	}
+#movie_heading{
+	text-align: center;
+}
